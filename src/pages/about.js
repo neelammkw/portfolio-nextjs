@@ -77,14 +77,14 @@ const About = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hey there, I'm Neelam, an enthusiastic full-stack web developer
+                Hey there, I&apos;m Neelam, an enthusiastic full-stack web developer
                 committed to creating captivating, user-friendly, and innovative
                 digital experiences. With over 1+ year of hands-on experience
-                in the field, I'm constantly exploring inventive approaches to
-                bring my clients' visions to life.
+                in the field, I&apos;m constantly exploring inventive approaches to
+                bring my clients&apos; visions to life.
               </p>
               <p className="my-4 font-medium">
-                Whether I'm working on a website or mobile app I bring my
+                Whether I&apos;m working on a website or mobile app I bring my
                 commitment to design excellence and user-centered thinking to
                 every project I work on. I look forward to the opportunity to
                 bring my skills and passion to your next project.
