@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-  <title>Neelam's Portfolio - Full Stack Developer</title>
-  <meta name="description" content="Welcome to Neelam Makwana's portfolio. Explore the projects and skills of a passionate Full Stack Developer specializing in Next.js, React, and the MERN stack." />
+  <title>Neelam&apos;s Portfolio - Full Stack Developer</title>
+  <meta name="description" content="Welcome to Neelam Makwana&apos;s portfolio. Explore the projects and skills of a passionate Full Stack Developer specializing in Next.js, React, and the MERN stack." />
   
-  <meta property="og:title" content="Neelam's Portfolio - Full Stack Developer" />
+  <meta property="og:title" content="Neelam&apos;s Portfolio - Full Stack Developer" />
   <meta property="og:description" content="Discover the projects and skills of Neelam Makwana, a dedicated Full Stack Developer with expertise in Next.js, React, and the MERN stack." />
   
 
@@ -100,7 +100,6 @@ export default function Home() {
             className="w-full h-auto"
             priority="true" sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 50vw" 
-                className="rounded-full w-full h-auto"
           />
         </div>
       </main>
