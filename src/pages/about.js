@@ -47,7 +47,7 @@ const About = () => {
     content="Explore the professional background of Neelam Makwana, a Full Stack Developer specializing in Next.js, React.js, and the MERN stack. Discover skills, experience, and projects."
   />
   <meta property="og:image" content="/images/profile/photo.png" />
-  <meta property="og:url" content="https://www.yourportfolio.com/about" />
+  <meta property="og:url" content="https://portfolio-neelammkw.netlify.app/about" />
   <meta property="og:type" content="website" />
 
   
