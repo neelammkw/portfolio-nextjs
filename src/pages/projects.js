@@ -156,7 +156,7 @@ const Projects = () => {
   return (
     <div>
       <Head>
-        <title>SHAN WEBTENCHO | Project Page</title>
+        <title>HIYA WEBTENCHO | Project Page</title>
         <meta
           name="description"
           content="Portfolio-Neelam-Full-Stack-Developer Next.js React.js MERN Developer"

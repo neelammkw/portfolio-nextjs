@@ -96,7 +96,7 @@ export default function Home() {
         <div className="absolute right-8 bottom-8 inline-block w-10 md:hidden">
           <Image
             src={lightBulb}
-            alt="SHAN WEBTECHNO"
+            alt="HIYA WEBTECHNO"
             className="w-full h-auto"
             priority="true" sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 50vw" 

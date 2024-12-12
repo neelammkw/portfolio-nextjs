@@ -99,7 +99,7 @@ const About = () => {
               <div className=" absolute -top-4 right-1 p-3 w-[102%] h-[103%]  border border-dark  dark:border-light  z-10 rounded-2xl  bg-light dark:bg-dark">
                 <Image
                   src={profilePic}
-                  alt="SHAN WEBTECHNO"
+                  alt="HIYA WEBTECHNO"
                   layout="fill"
                   objectFit="cover"
                   className="w-full h-auto p-5  dark:border-dark rounded-[2.5rem]" priority sizes="(max-width: 768px) 100vw,
