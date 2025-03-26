@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
-import project1 from "../../public/images/projects/project-1.jpg";
+import project1 from "../../public/images/projects/project-1.png";
 import project2 from "../../public/images/projects/project-2.png";
 import project3 from "../../public/images/projects/project-3.png";
 import project4 from "../../public/images/projects/project-4.png";
@@ -18,7 +18,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 const AnimatedImage = animated(Image);
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+const FeaturedProject = ({ type, title, summary, img, link,link1, github }) => {
   const fadeInProps = useSpring({
     opacity: 1,
     from: { opacity: 0 },
@@ -70,6 +70,15 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           >
             Visit Project
           </Link>
+          {link1 && (
+            <Link
+              href={link1}
+              target="_blank"
+              className="rounded-lg text-lg font-semibold underline dark:border-light md:text-base ml-10"
+            >
+              Visit Admin
+            </Link>
+          )}
         </div>
       </div>
     </article>
@@ -147,7 +156,7 @@ const Projects = () => {
   return (
     <div>
       <Head>
-        <title>SHAN WEBTENCHO | Project Page</title>
+        <title>HIYA WEBTENCHO | Project Page</title>
         <meta
           name="description"
           content="Portfolio-Neelam-Full-Stack-Developer Next.js React.js MERN Developer"
@@ -165,9 +174,10 @@ const Projects = () => {
               <FeaturedProject
                 title="Full Stack E-Commerce Website"
                 img={project1}
-                summary="full stack integrated E-Commerce website with an Admin Dashboard using Next.js 14, Stripe for payment, TypeScript, MongoDB for all database management, Clerk for authentication and user management, React-Hook-Form for form validation, Tailwind CSS & Shadcn UI for a stunning responsive UI design, and Next Cloudinary for image upload and storage."
-                link="/"
-                github="/"
+                summary="full stack integrated E-Commerce website with an Admin Dashboard using React.js, Stripe for payment, MongoDB for all database management, Tailwind CSS & Shadcn UI for a stunning responsive UI design."
+                link="https://fashion-fables.netlify.app"
+                link1="https://fashion-fables-admin.netlify.app"
+                github="https://github.com/neelammkw/eccomerce-shopping-client"
                 type="Featured Project"
               />
             </div>

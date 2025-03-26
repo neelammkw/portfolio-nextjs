@@ -116,7 +116,7 @@ const Articles = () => {
   return (
     <>
       <Head>
-        <title>SHAN WEBTENCHO | Articles Page</title>
+        <title>HIYA WEBTENCHO | Articles Page</title>
         <meta
           name="description"
           content="Portfolio-Neelam-Full-Stack-Developer Next.js React.js MERN Developer"
